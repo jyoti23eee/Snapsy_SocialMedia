@@ -69,3 +69,19 @@ npm install
 
 # Start development server
 npm start 
+### Environment Setup
+REACT_APP_API_URL=http://localhost:5000
+REACT_APP_FIREBASE_API_KEY=your_firebase_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_domain
+
+### Project Structure
+snapsy-socialmedia/
+├── public/            # Static assets
+├── src/
+│   ├── components/    # Reusable components
+│   ├── contexts/      # Auth & Theme providers
+│   ├── pages/         # Route components
+│   ├── utils/         # Helpers & configs
+│   └── App.js         # Main application
+├── .env.example       # Environment template
+└── package.json       # Dependency management
